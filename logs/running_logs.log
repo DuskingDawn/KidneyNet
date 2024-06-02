@@ -1,0 +1,36 @@
+[2024-05-12 02:32:55,179: INFO: stage1_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-12 02:32:55,181: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-05-12 02:32:55,188: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-05-12 02:32:55,189: INFO: file_op_utils: created directory at: artifacts]
+[2024-05-12 02:32:55,190: INFO: file_op_utils: created directory at: artifacts/data_ingestion]
+[2024-05-12 02:32:55,191: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/18JJ5SvjkqQvRgcSwqAUCSygnDnM8wfwj/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-05-12 02:37:01,313: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-12 02:37:01,313: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-05-12 02:37:01,313: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-05-12 02:37:01,313: INFO: file_op_utils: created directory at: artifacts]
+[2024-05-12 02:37:01,313: INFO: file_op_utils: created directory at: artifacts/data_ingestion]
+[2024-05-12 02:37:01,313: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/18JJ5SvjkqQvRgcSwqAUCSygnDnM8wfwj/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-05-12 02:39:08,234: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/18JJ5SvjkqQvRgcSwqAUCSygnDnM8wfwj/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-05-12 02:39:28,590: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-02 18:44:27,329: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-02 18:44:27,345: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-06-02 18:44:27,353: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-06-02 18:44:27,353: INFO: file_op_utils: created directory at: artifacts]
+[2024-06-02 18:44:27,353: INFO: file_op_utils: created directory at: artifacts/data_ingestion]
+[2024-06-02 18:44:27,353: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/18JJ5SvjkqQvRgcSwqAUCSygnDnM8wfwj/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-02 18:47:33,134: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/18JJ5SvjkqQvRgcSwqAUCSygnDnM8wfwj/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2024-06-02 18:47:57,938: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-02 18:47:57,938: INFO: main: *******************]
+[2024-06-02 18:47:57,938: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-02 18:47:57,938: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-06-02 18:47:57,938: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-06-02 18:47:57,946: INFO: file_op_utils: created directory at: artifacts]
+[2024-06-02 18:47:57,946: INFO: file_op_utils: created directory at: artifacts/prepare_base_model]
+[2024-06-02 18:48:13,086: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-02 18:48:14,016: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
