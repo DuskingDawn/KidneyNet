@@ -98,3 +98,22 @@ x==========x]
 [2024-06-03 22:54:33,794: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-06-03 23:10:53,597: INFO: main: *******************]
+[2024-06-03 23:10:53,597: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-06-03 23:10:53,613: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 23:10:53,613: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-06-03 23:10:53,613: INFO: file_op_utils: created directory at: artifacts]
+[2024-06-03 23:10:53,623: INFO: file_op_utils: created directory at: artifacts\training]
+[2024-06-03 23:44:32,617: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-03 23:44:32,619: INFO: main: *******************]
+[2024-06-03 23:44:32,619: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-03 23:44:32,627: INFO: file_op_utils: yaml file: config\config.yaml loaded successfully]
+[2024-06-03 23:44:32,632: INFO: file_op_utils: yaml file: params.yaml loaded successfully]
+[2024-06-03 23:44:32,634: INFO: file_op_utils: created directory at: artifacts]
+[2024-06-03 23:54:29,274: INFO: file_op_utils: json file saved at: scores.json]
+[2024-06-03 23:54:29,278: INFO: file_op_utils: json file saved at: scores.json]
+[2024-06-03 23:54:29,278: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
