@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sneha/Documents/Projects/KidneyNet/mlruns/0/9a0fb77a4b0242c29c778e1c5e656715/artifacts
+end_time: 1717489736652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a0fb77a4b0242c29c778e1c5e656715
+run_name: model1
+run_uuid: 9a0fb77a4b0242c29c778e1c5e656715
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717489715929
+status: 1
+tags: []
+user_id: Sneha
