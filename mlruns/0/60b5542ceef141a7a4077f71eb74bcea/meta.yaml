@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sneha/Documents/Projects/KidneyNet/mlruns/0/60b5542ceef141a7a4077f71eb74bcea/artifacts
+end_time: 1717520901502
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60b5542ceef141a7a4077f71eb74bcea
+run_name: clumsy-shark-593
+run_uuid: 60b5542ceef141a7a4077f71eb74bcea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717520857554
+status: 3
+tags: []
+user_id: Sneha
