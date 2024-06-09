@@ -455,3 +455,100 @@ x==========x]
 [2024-06-04 22:38:21,507: INFO: stage4_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-06-09 21:58:48,437: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2024-06-09 21:58:48,437: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 21:59:11,128: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 21:59:11] "GET / HTTP/1.1" 200 -]
+[2024-06-09 22:11:29,915: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2024-06-09 22:11:29,915: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 22:11:39,002: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:11:39] "GET / HTTP/1.1" 200 -]
+[2024-06-09 22:15:51,082: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2024-06-09 22:15:51,082: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 22:15:54,653: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:15:54] "GET / HTTP/1.1" 200 -]
+[2024-06-09 22:16:36,866: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\sneha\documents\projects\kidneynet\src\cnnClassifier\pipeline\prediction.py", line 12, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-06-09 22:16:36,878: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:16:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-09 22:35:25,013: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2024-06-09 22:35:25,013: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 22:35:27,907: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:35:27] "GET / HTTP/1.1" 200 -]
+[2024-06-09 22:35:35,432: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\sneha\documents\projects\kidneynet\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    result = np.argmax(model.predict(test_image), axis=1)
+  File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sneha\AppData\Local\Temp\__autograph_generated_file47hrx220.py", line 15, in tf__predict_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2169, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2155, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2143, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2111, in predict_step
+        return self(x, training=False)
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\Sneha\anaconda3\envs\kidney\lib\site-packages\keras\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model" is incompatible with the layer: expected shape=(None, 299, 299, 3), found shape=(None, 224, 224, 3)
+
+[2024-06-09 22:35:35,438: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:35:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-09 22:37:55,187: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.11:8080]
+[2024-06-09 22:37:55,188: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-06-09 22:37:57,144: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:37:57] "GET / HTTP/1.1" 200 -]
+[2024-06-09 22:38:05,787: INFO: _internal: 127.0.0.1 - - [09/Jun/2024 22:38:05] "POST /predict HTTP/1.1" 200 -]
