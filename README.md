@@ -59,7 +59,7 @@ docker run -d -p 80:80 --name kidney-net-container kidney-net-app
 Open a web browser and go to http://localhost.
 ```
 ## Report
-A doc named 'Report' has been attached which showcases the results and the whole process of this project.
+A doc named 'KidneyNET Doc' has been attached which showcases the results and the whole process of this project.
 
 ## Contact
 Feel free to reach out if you have any questions or want to connect:
